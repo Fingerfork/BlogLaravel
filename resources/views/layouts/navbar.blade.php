@@ -29,10 +29,10 @@
                         </li>
                     @else
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register.create') }}">Login</a>
+                            <a class="nav-link" href="{{ route('login.create') }}">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login.create') }}">Register</a>
+                            <a class="nav-link" href="{{ route('register.create') }}">Register</a>
                         </li>
                     @endif
                 </ul>
